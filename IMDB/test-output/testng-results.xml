@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22612" started-at="2018-03-15T18:47:01Z" finished-at="2018-03-15T18:47:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22612" started-at="2018-03-15T18:47:01Z" finished-at="2018-03-15T18:47:24Z">
+      <class name="com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="setUp" is-config="true" duration-ms="16479" started-at="2018-03-16T00:17:01Z" finished-at="2018-03-16T00:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="IMDB_Rating()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="IMDB_Rating" duration-ms="5713" started-at="2018-03-16T00:17:18Z" finished-at="2018-03-16T00:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IMDB_Rating -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="endTest" is-config="true" duration-ms="390" started-at="2018-03-16T00:17:24Z" finished-at="2018-03-16T00:17:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
