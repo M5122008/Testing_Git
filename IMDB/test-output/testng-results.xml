@@ -1,25 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22612" started-at="2018-03-15T18:47:01Z" finished-at="2018-03-15T18:47:24Z">
+  <suite name="Default suite" duration-ms="33794" started-at="2018-05-16T20:07:11Z" finished-at="2018-05-16T20:07:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22612" started-at="2018-03-15T18:47:01Z" finished-at="2018-03-15T18:47:24Z">
-      <class name="com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="setUp" is-config="true" duration-ms="16479" started-at="2018-03-16T00:17:01Z" finished-at="2018-03-16T00:17:18Z">
+    <test name="Default test" duration-ms="33794" started-at="2018-05-16T20:07:11Z" finished-at="2018-05-16T20:07:45Z">
+      <class name="com.RedPanda.progPckg.TestWithDifferentRecords">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.RedPanda.progPckg.TestWithDifferentRecords@6093dd95]" name="setUp" is-config="true" duration-ms="15745" started-at="2018-05-17T01:37:11Z" finished-at="2018-05-17T01:37:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="IMDB_Rating()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="IMDB_Rating" duration-ms="5713" started-at="2018-03-16T00:17:18Z" finished-at="2018-03-16T00:17:24Z">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.RedPanda.progPckg.TestWithDifferentRecords@6093dd95]" name="testLogin" duration-ms="5576" started-at="2018-05-17T01:37:28Z" data-provider="loginData" finished-at="2018-05-17T01:37:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- IMDB_Rating -->
-        <test-method status="PASS" signature="endTest()[pri:0, instance:com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass@4cc0edeb]" name="endTest" is-config="true" duration-ms="390" started-at="2018-03-16T00:17:24Z" finished-at="2018-03-16T00:17:24Z">
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.RedPanda.progPckg.TestWithDifferentRecords@6093dd95]" name="testLogin" duration-ms="7781" started-at="2018-05-17T01:37:33Z" data-provider="loginData" finished-at="2018-05-17T01:37:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.RedPanda.progPckg.TestWithDifferentRecords@6093dd95]" name="testLogin" duration-ms="3565" started-at="2018-05-17T01:37:41Z" data-provider="loginData" finished-at="2018-05-17T01:37:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser_3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:com.RedPanda.progPckg.TestWithDifferentRecords@6093dd95]" name="endTest" is-config="true" duration-ms="221" started-at="2018-05-17T01:37:45Z" finished-at="2018-05-17T01:37:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-      </class> <!-- com.RedPanda.IMDB.HomePage.TC01_IMDB_TestClass -->
+      </class> <!-- com.RedPanda.progPckg.TestWithDifferentRecords -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
